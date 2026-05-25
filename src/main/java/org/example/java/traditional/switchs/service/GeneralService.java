@@ -3,6 +3,11 @@ package org.example.java.traditional.switchs.service;
 import org.example.java.traditional.switchs.domain.UserRoles;
 
 public class GeneralService {
+    /**
+     * - Returns an authorization message based on the given user role.
+     * - Uses enhanced switch expression with enum
+     * - Each role maps to a specific permission level
+     */
     public void printAuthorization(UserRoles userRoles) {
         switch (userRoles) {
             case ADMIN:
@@ -20,6 +25,14 @@ public class GeneralService {
         }
     }
 
+    /**
+     * - Determines and prints the student grade using traditional switch statement
+     * - Matches exact grade values (100, 90)
+     * - Uses break to prevent fall-through
+     * - Defaults to grade C for all other values
+     * - Note: For range-based conditions, using if-else is more appropriate.
+     * This example is intentionally simplified to demonstrate traditional switch usage.
+     */
     public void checkStudentGrade(int grade) {
         switch (grade) {
             case 100:
