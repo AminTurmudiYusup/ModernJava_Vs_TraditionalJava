@@ -77,29 +77,30 @@ Each package contains a main class.
 
 👉 To run the project:
 
-Navigate to either:
+🔹 Navigate to either:
 
 traditional package
 
 modern package
 
-Look for classes with the prefix:
+🔹 Look for classes with the prefix:
 
 Main*
 
-Run any of those classes to see the comparison in action.
+🔹 Run any of those classes to see the comparison in action.
 
 
 🎯 Purpose of This Project
-Understand differences between old and modern Java styles
 
-Learn how modern features improve:
+🔹 Understand differences between old and modern Java styles
+
+🔹 Learn how modern features improve:
 
 Code readability ✨
 
 Maintainability 🧩
 
-Practice clean project structure used in real-world applications
+🔹 Practice clean project structure used in real-world applications
 
 💡 Example Learning Outcome
 
@@ -108,3 +109,14 @@ Practice clean project structure used in real-world applications
 | Stream   | Loops & collections  | Stream API      |
 | Optional | Null checks          | Optional class  |
 | Switch   | Classic switch       | Enhanced switch |
+
+
+🤝 Contribution
+
+Feel free to:
+
+🔹 Fork the project 🍴
+
+🔹 Add more feature comparisons
+
+🔹 Improve structure or examples
