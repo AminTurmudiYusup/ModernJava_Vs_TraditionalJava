@@ -108,11 +108,13 @@ Maintainability 🧩
 
 💡 Example Learning Outcome
 
-| Feature  | Traditional Approach | Modern Approach |
-| -------- | -------------------- | --------------- |
-| Stream   | Loops & collections  | Stream API      |
-| Optional | Null checks          | Optional class  |
-| Switch   | Classic switch       | Enhanced switch |
+| Feature   | Traditional Approach        | Modern Approach        |
+|-----------|---------------------------|------------------------|
+| Stream    | Loops & collections       | Stream API             |
+| Optional  | Null checks               | Optional class         |
+| Switch    | Classic switch            | Enhanced switch        |
+| var       | Explicit type declaration | Local variable type inference (`var`) |
+| Record    | POJO (getters/setters)    | Record class           |
 
 
 🤝 Contribution
