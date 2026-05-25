@@ -36,6 +36,10 @@ This project focuses on comparing the following Java features:
 
 🔹 Switch (traditional vs enhanced switch)
 
+🔹 Record
+
+🔹 var
+
 🏗️ Layered Structure
 
 Each package (traditional and modern) follows a clean architecture pattern:
