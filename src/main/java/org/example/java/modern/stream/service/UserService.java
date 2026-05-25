@@ -1,4 +1,4 @@
-package org.example.java.modern.stream.services;
+package org.example.java.modern.stream.service;
 
 import org.example.java.modern.stream.dto.UserRequest;
 import org.example.java.modern.stream.entity.UserEntity;

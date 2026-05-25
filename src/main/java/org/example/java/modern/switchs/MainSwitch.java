@@ -1,7 +1,7 @@
 package org.example.java.modern.switchs;
 
 import org.example.java.modern.switchs.dto.Point;
-import org.example.java.modern.switchs.services.GeneralService;
+import org.example.java.modern.switchs.service.GeneralService;
 
 import static org.example.java.modern.switchs.domain.UserRoles.ADMIN;
 

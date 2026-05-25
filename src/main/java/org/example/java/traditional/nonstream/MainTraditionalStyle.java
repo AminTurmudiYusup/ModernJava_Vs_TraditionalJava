@@ -1,7 +1,7 @@
 package org.example.java.traditional.nonstream;
 
 import org.example.java.traditional.nonstream.dto.UserRequest;
-import org.example.java.traditional.nonstream.services.UserService;
+import org.example.java.traditional.nonstream.service.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package org.example.java.modern.stream;
 
 import org.example.java.modern.stream.dto.UserRequest;
-import org.example.java.modern.stream.services.UserService;
+import org.example.java.modern.stream.service.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

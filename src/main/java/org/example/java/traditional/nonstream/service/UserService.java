@@ -1,4 +1,4 @@
-package org.example.java.traditional.nonstream.services;
+package org.example.java.traditional.nonstream.service;
 
 import org.example.java.traditional.nonstream.dto.UserRequest;
 import org.example.java.traditional.nonstream.entity.UserEntity;

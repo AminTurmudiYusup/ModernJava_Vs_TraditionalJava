@@ -1,4 +1,4 @@
-package org.example.java.modern.switchs.services;
+package org.example.java.modern.switchs.service;
 
 import org.example.java.modern.switchs.domain.UserRoles;
 import org.example.java.modern.switchs.dto.Point;
