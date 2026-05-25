@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MainTraditionalStyle {
     public static void main(String[] args) {
-        var userRequests = new ArrayList<UserRequest>(List.of(
+        List<UserRequest> userRequests = new ArrayList<UserRequest>(List.of(
                 new UserRequest(1, "Liam Henderson", "742 Evergreen Terr, Springfield, IL", "liam.h@email.com", "+1-555-0101", 29),
                 new UserRequest(2, "Olivia Martinez", "1028 Beacon St, Boston, MA", "olivia.m@email.com", "+1-555-0102", 34),
                 new UserRequest(3, "Noah Takahashi", "56 Shinjuku Chome, Tokyo, JP", "noah.t@email.com", "+81-90-5555-0103", 24),

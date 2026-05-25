@@ -10,7 +10,7 @@ public class MainSwitch {
 
     public static void main(String[] args) {
         // Assume you have an active user role variable initialized
-        GeneralService generalService = new GeneralService();
+        var generalService = new GeneralService();
 
         System.out.println(generalService.getRole(ADMIN));
 

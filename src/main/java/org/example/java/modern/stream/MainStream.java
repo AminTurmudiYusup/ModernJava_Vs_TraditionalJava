@@ -20,7 +20,7 @@ public class MainStream {
                 new UserRequest(9, "Aarav Sharma", "Connaught Place Block A, New Delhi, IN", "aarav.s@email.com", "+91-11-2341-0109", 19),
                 new UserRequest(10, "Chloe Dubois", "21 Rue de Rivoli, Paris, FR", "chloe.d@email.com", "+33-1-4296-0110", 63)
         ));
-        UserService userService = new UserService();
+        var userService = new UserService();
         userService.manipulateUser(userRequests);
 
 
