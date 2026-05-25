@@ -17,13 +17,13 @@ public class UserService {
     public void manipulateUser(List<UserRequest> userList) {
         List<UserEntity> userEntities = new ArrayList<>();
         for (UserRequest userRequest : userList) {
-            if (userRequest.name().startsWith("A") && userRequest.age() > 18) {
+            if (userRequest.getName().startsWith("A") && userRequest.getAge() > 18) {
                 UserEntity userEntity = new UserEntity();
-                userEntity.setId(userRequest.id());
-                userEntity.setName(userRequest.name());
-                userEntity.setAddress(userRequest.address());
-                userEntity.setEmail(userRequest.email());
-                userEntity.setPhoneNumber(userRequest.phoneNumber());
+                userEntity.setId(userRequest.getId());
+                userEntity.setName(userRequest.getName());
+                userEntity.setAddress(userRequest.getAddress());
+                userEntity.setEmail(userRequest.getEmail());
+                userEntity.setPhoneNumber(userRequest.getPhoneNumber());
                 userEntities.add(userEntity);
             }
         }
