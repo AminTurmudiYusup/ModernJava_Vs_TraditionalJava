@@ -1,4 +1,4 @@
-package org.example.java.modern.stream.main;
+package org.example.java.modern.stream;
 
 import org.example.java.modern.stream.dto.UserRequest;
 import org.example.java.modern.stream.services.UserService;
